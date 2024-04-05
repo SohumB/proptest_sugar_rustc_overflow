@@ -1,0 +1,8 @@
+[package]
+name = "bar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust_decimal = { version = "1.33", features = ["proptest"] }
+schemars = { version = "0.8", features = ["rust_decimal"] }
